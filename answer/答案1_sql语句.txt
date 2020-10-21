@@ -1,0 +1,10 @@
+-- 创建数据库userdata
+create database userdata character set utf8
+-- 创建user表
+CREATE TABLE user(
+id int PRIMARY KEY auto_increment,
+username VARCHAR(40),
+password VARCHAR(40)
+);
+-- 插入数据
+INSERT INTO user VALUES(1,"张三","123");
